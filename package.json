@@ -1,17 +1,18 @@
 {
-  "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "name": "ultimate-next-starter",
+  "description": "The ultimate starter for a new next project, powered by Apollo with graphql-let for major quality of life improvements",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <oi@joaopedro.cc> (joaopedro.cc)",
+  "author": "Daniel Cooke <danielcooke1996@gmail.com>",
   "license": "MIT",
   "keywords": [
     "nextjs",
+    "apollo",
     "starter",
     "typescript"
   ],
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",
@@ -26,6 +27,11 @@
     ]
   },
   "dependencies": {
+    "@apollo/client": "3.3.11",
+    "@material-ui/core": "4.11.3",
+    "apollo-server-micro": "2.21.0",
+    "graphql": "15.5.0",
+    "graphql-tools": "7.0.4",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
@@ -33,6 +39,11 @@
   "devDependencies": {
     "@commitlint/cli": "12.0.1",
     "@commitlint/config-conventional": "12.0.1",
+    "@graphql-codegen/cli": "1.21.1",
+    "@graphql-codegen/plugin-helpers": "1.18.2",
+    "@graphql-codegen/typescript": "1.21.0",
+    "@graphql-codegen/typescript-operations": "1.17.14",
+    "@graphql-codegen/typescript-react-apollo": "2.2.1",
     "@types/node": "14.14.31",
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.1",
@@ -49,10 +60,12 @@
     "eslint-plugin-prettier": "3.3.1",
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
+    "graphql-let": "0.16.3",
     "husky": "5.1.1",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1",
-    "typescript": "4.2.2"
+    "typescript": "4.2.2",
+    "yaml-loader": "0.6.0"
   },
   "config": {
     "commitizen": {
