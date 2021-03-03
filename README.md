@@ -1,20 +1,15 @@
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/26466516/107675802-36216b80-6c77-11eb-8db1-4d3407dc53d9.png" alt="Next.js and TypeScript">
+  <img src="https://user-images.githubusercontent.com/841294/53402609-b97a2180-39ba-11e9-8100-812bab86357c.png" alt="Apollo">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=24B36B&labelColor=000000" alt="PRs welcome!" />
-
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
-
-  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @jpedroschmitz" />
-  </a>
-</p>
 
 <br>
 
-A TypeScript starter for Next.js that includes all you need to build amazing projects 🔥
+This project was built on top of [`typescript-nextjs-starter`](https://github.com/jpedroschmitz/typescript-nextjs-starter)
+
+From base template:
 
 - 📏 **ESLint** — Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
@@ -25,12 +20,17 @@ A TypeScript starter for Next.js that includes all you need to build amazing pro
 - 🚫 **lint-staged** - Run linters against staged git files
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
 
+Whats new in this template:
+- **Apollo Server** - GraphQL api hosted using Next API routes.
+- **Apollo Client** - Fetch from your GraphQL API with caching and other enhancements
+- **graphql-let** - Apollo client codegen for all queries and mutations - no more writing custom Query hooks.
+
 ## 🚀 Getting started
 
 The best way to start with this template is using `create-next-app`.
 
 ```
-npx create-next-app ts-next -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+npx create-next-app ts-next -e https://github.com/dan-cooke/ultimate-next-starter
 ```
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
@@ -55,4 +55,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-Made with ♥ by João Pedro Schmitz
+Made with ♥ by João Pedro Schmitz && Daniel Cooke
